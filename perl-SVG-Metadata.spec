@@ -6,7 +6,7 @@
 %define	pdir	SVG
 %define	pnam	Metadata
 Summary:	SVG::Metadata - Perl module to capture metadata info about an SVG file
-Summary(pl):	SVG::Metadata - modu³ Perla do wydobyowania informacji na temat pliku SVG
+Summary(pl):	SVG::Metadata - modu³ Perla do wydobywania informacji na temat pliku SVG
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.14
 Release:	1
@@ -31,7 +31,7 @@ handling metadata, but instead relies on embedded, namespaced RDF
 sections, as per XML philosophy. Unfortunately, many SVG tools don't
 support the concept of RDF metadata; indeed many don't support the
 idea of embedded XML "islands" at all. Some will even ignore and drop
-the rdf data entirely when encountered.
+the RDF data entirely when encountered.
 
 The motivation for this module is twofold. First, it provides a
 mechanism for accessing this metadata from the SVG files. Second, it
@@ -39,12 +39,32 @@ provides a means of validating SVG files to detect if they have the
 metadata.
 
 The motivation for this script is primarily for the Open Clip Art
-Library (http://www.openclipart.org), as a way of filtering out
+Library (http://www.openclipart.org/), as a way of filtering out
 submissions that lack metadata from being included in the official
 distributions. A secondary motivation is to serve as a testing tool
-for SVG editors like Inkscape (http://www.inkscape.org).
+for SVG editors like Inkscape (http://www.inkscape.org/).
 
-#%description -l pl
+%description -l pl
+Ten modu³ dostarcza metodê do wydobywania, przegl±dania i u¿ywania
+metadanych RDF osadzonych w pliku SVG.
+
+Sama specyfikacja SVG nie dostarcza ¿adnych konkretnych mechanizmów do
+obs³ugi metadanych, ale polega na osadzonych sekcjach RDF z w³asnymi
+przestrzeniami nazw, zgodnie z filozofi± XML. Niestety wiele narzêdzi
+do SVG nie obs³uguje idei metadanych RDF; w rzeczywisto¶ci wiele w
+ogóle nie obs³uguje idei osadzania "wysp" XML. Niektóre nawet ignoruj±
+i porzucaj± ca³o¶æ danych RDF.
+
+Motywacja dla tego modu³u jest dwojaka. Po pierwsze, dostarcza
+mechanizm do dostêpu do metadanych z plików SVG. Po drugie, dostarcza
+¶rodki do sprawdzania poprawno¶ci plików SVG w celu wykrycia, czy maj±
+metadane.
+
+Ten skrypt by³ tworzony g³ównie z my¶l± o bibliotee Open Clip Art
+(http://www.openclipart.org/), jako sposób filtrowania z oficjalnych
+dystrybucji nades³anych prac nie maj±cych metadanych. Drugim
+przeznaczeniem by³o wykorzystanie jako narzêdzie testowe dla edytorów
+SVG takich jak Inkscape (http://www.inkscape.org/).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
