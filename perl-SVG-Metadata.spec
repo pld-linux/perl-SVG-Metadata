@@ -6,7 +6,7 @@
 %define	pdir	SVG
 %define	pnam	Metadata
 Summary:	SVG::Metadata - Perl module to capture metadata info about an SVG file
-Summary(pl):	SVG::Metadata - modu³ perla do wydobyowania informacji na temat pliku SVG
+Summary(pl):	SVG::Metadata - modu³ Perla do wydobyowania informacji na temat pliku SVG
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.14
 Release:	1
