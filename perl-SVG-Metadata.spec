@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	SVG
-%define	pnam	Metadata
+%define		pdir	SVG
+%define		pnam	Metadata
 Summary:	SVG::Metadata - Perl module to capture metadata info about an SVG file
 Summary(pl):	SVG::Metadata - modu³ Perla do wydobywania informacji na temat pliku SVG
 Name:		perl-%{pdir}-%{pnam}
