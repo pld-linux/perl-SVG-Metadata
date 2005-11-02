@@ -8,13 +8,13 @@
 Summary:	SVG::Metadata - Perl module to capture metadata info about an SVG file
 Summary(pl):	SVG::Metadata - modu³ Perla do wydobywania informacji na temat pliku SVG
 Name:		perl-%{pdir}-%{pnam}
-Version:	0.25
+Version:	0.28
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	07ad01ea28e97f027097d50005bdfc63
+# Source0-md5:	1100e73fd31a8ea2fc6402ad198c678f
 URL:		http://search.cpan.org/dist/SVG-Metadata/
 BuildRequires:	perl-XML-Twig >= 3.15
 BuildRequires:	perl-devel >= 1:5.8.0
