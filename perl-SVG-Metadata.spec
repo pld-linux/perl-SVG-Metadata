@@ -6,7 +6,7 @@
 %define		pdir	SVG
 %define		pnam	Metadata
 Summary:	SVG::Metadata - Perl module to capture metadata info about an SVG file
-Summary(pl):	SVG::Metadata - modu³ Perla do wydobywania informacji na temat pliku SVG
+Summary(pl.UTF-8):   SVG::Metadata - moduÅ‚ Perla do wydobywania informacji na temat pliku SVG
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.28
 Release:	1
@@ -44,26 +44,26 @@ submissions that lack metadata from being included in the official
 distributions. A secondary motivation is to serve as a testing tool
 for SVG editors like Inkscape (http://www.inkscape.org/).
 
-%description -l pl
-Ten modu³ dostarcza metodê do wydobywania, przegl±dania i u¿ywania
+%description -l pl.UTF-8
+Ten moduÅ‚ dostarcza metodÄ™ do wydobywania, przeglÄ…dania i uÅ¼ywania
 metadanych RDF osadzonych w pliku SVG.
 
-Sama specyfikacja SVG nie dostarcza ¿adnych konkretnych mechanizmów do
-obs³ugi metadanych, ale polega na osadzonych sekcjach RDF z w³asnymi
-przestrzeniami nazw, zgodnie z filozofi± XML. Niestety wiele narzêdzi
-do SVG nie obs³uguje idei metadanych RDF; w rzeczywisto¶ci wiele w
-ogóle nie obs³uguje idei osadzania "wysp" XML. Niektóre nawet ignoruj±
-i porzucaj± ca³o¶æ danych RDF.
+Sama specyfikacja SVG nie dostarcza Å¼adnych konkretnych mechanizmÃ³w do
+obsÅ‚ugi metadanych, ale polega na osadzonych sekcjach RDF z wÅ‚asnymi
+przestrzeniami nazw, zgodnie z filozofiÄ… XML. Niestety wiele narzÄ™dzi
+do SVG nie obsÅ‚uguje idei metadanych RDF; w rzeczywistoÅ›ci wiele w
+ogÃ³le nie obsÅ‚uguje idei osadzania "wysp" XML. NiektÃ³re nawet ignorujÄ…
+i porzucajÄ… caÅ‚oÅ›Ä‡ danych RDF.
 
-Motywacja dla tego modu³u jest dwojaka. Po pierwsze, dostarcza
-mechanizm do dostêpu do metadanych z plików SVG. Po drugie, dostarcza
-¶rodki do sprawdzania poprawno¶ci plików SVG w celu wykrycia, czy maj±
+Motywacja dla tego moduÅ‚u jest dwojaka. Po pierwsze, dostarcza
+mechanizm do dostÄ™pu do metadanych z plikÃ³w SVG. Po drugie, dostarcza
+Å›rodki do sprawdzania poprawnoÅ›ci plikÃ³w SVG w celu wykrycia, czy majÄ…
 metadane.
 
-Ten skrypt by³ tworzony g³ównie z my¶l± o bibliotee Open Clip Art
-(http://www.openclipart.org/), jako sposób filtrowania z oficjalnych
-dystrybucji nades³anych prac nie maj±cych metadanych. Drugim
-przeznaczeniem by³o wykorzystanie jako narzêdzie testowe dla edytorów
+Ten skrypt byÅ‚ tworzony gÅ‚Ã³wnie z myÅ›lÄ… o bibliotee Open Clip Art
+(http://www.openclipart.org/), jako sposÃ³b filtrowania z oficjalnych
+dystrybucji nadesÅ‚anych prac nie majÄ…cych metadanych. Drugim
+przeznaczeniem byÅ‚o wykorzystanie jako narzÄ™dzie testowe dla edytorÃ³w
 SVG takich jak Inkscape (http://www.inkscape.org/).
 
 %prep
