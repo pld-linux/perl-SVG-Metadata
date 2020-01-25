@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	SVG
 %define		pnam	Metadata
 Summary:	SVG::Metadata - Perl module to capture metadata info about an SVG file
